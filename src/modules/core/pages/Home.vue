@@ -83,14 +83,23 @@
           <p>
             Vždy budujem, skúšam, alebo sa učím niečo bokom, a milujem, keď
             vidím podobné nadšenie aj u iných. Keď som bol v Londýne, nikde inde
-            som sa necítil tak živo, ako na pive s Indie Hackers komunitou, teda
-            ľuďmi, ktorí bokom budujú malé a stredné podniky zo softvérových
-            produktov. Mám to šťastie, že aj na Slovensku už zopár zaujímavých
-            projektov poznám, a tak som si hovorím, "Prečo nezviditeľniť tieto
-            super projekty a indie hackers na Slovensku?"
+            som sa necítil tak živo, ako na pive s
+            <a
+              href="https://www.indiehackers.com/"
+              target="_blank"
+              rel="noopener"
+              >Indie Hackers</a
+            >
+            komunitou
+            <a href="https://indieldn.slack.com/" target="_blank" rel="noopener"
+              >Indie London</a
+            >. Sú to ľudia, ktorí bokom budujú malé a stredné podniky zo
+            softvérových produktov. Mám to šťastie, že aj na Slovensku už zopár
+            zaujímavých projektov poznám, a tak som si hovorím, "Prečo
+            nezviditeľniť tieto super projekty a indie hackers na Slovensku?"
           </p>
           <p>
-            <a href="https://jurora.vc/about"
+            <a href="https://jurora.vc/about" target="_blank" rel="noopener"
               >Viac o mne nájdeš na mojom webe</a
             >
           </p>
