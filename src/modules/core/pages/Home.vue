@@ -21,8 +21,8 @@
       style="margin-top: 600px"
     >
       <p class="text-h5 pb-8">
-        Cestou Tech je slovensky podcast o tzv indie hackers, teda ludoch, ktori
-        si buduju prijem cez zaujimave softverove (a ine) produkty.
+        Cestou Tech je podcast, kde stretneš Slovákov, ktorí budujú úspešné
+        alebo nadchádzajúce softvérové (a iné) produkty.
       </p>
 
       <div class="text-center pb-8">
@@ -30,10 +30,11 @@
           Čoskoro...
         </h3>
         <div class="text-body-1 secondary--text text--lighten-3">
-          <p class="mb-0">The podcast is currently in development.</p>
-          <p>Sign up to be the first to hear about its release.</p>
+          <p class="mb-0">Na podcaste sa práve pracuje.</p>
+          <p>Prihlás sa na odber a dostaň sa k novým dielom medzi prvými.</p>
         </div>
 
+        <!-- TODO: Migrate to ghost.org (https://ghost.org/vs/substack)  -->
         <div class="text-center">
           <iframe
             src="https://cestoutech.substack.com/embed"
@@ -45,18 +46,19 @@
         </div>
       </div>
 
-      <h3>The show</h3>
+      <h3>Show</h3>
 
       <p>
-        Pozrieme sa na ich pribehy, ako a preco zacali, a kde su teraz. Short,
-        bite-sized conversations with indie hackers that have started small,
-        profitable and bootstrapped businesses. You'll learn how they come up
-        with ideas, what they do to validate, find those first customers and
-        make a sustainable income.
+        Kto sú Slováci, ktorí vybudovali udržateľné a profitabilné podniky zo
+        softvérových produktov? V každom diely sa zameriame na jeden projekt a
+        stretneme ich zakladateľov. Pozrieme sa na ich pribehy, ako a prečo
+        začali, a kde sú teraz. Poriadne ich vyžmýkame o ich skúsenosti: Kde
+        našli svojich zákazníkov, ako sa im podarilo monetizovať ich projekt,
+        alebo kedy sa z bokovky stalo niečo seriózne.
       </p>
 
       <br />
-      <h3>The host</h3>
+      <h3>Moderátor</h3>
 
       <div
         class="d-flex gap-5"
@@ -69,39 +71,28 @@
         <g-image
           src="../assets/imgs/profile-pic-front-white-bg-cc-sq-md.png"
           width="250"
+          :class="{ 'mt-n4': $vuetify.breakpoint.smAndUp }"
         />
         <div>
           <p>
-            I'm Juro Oravec. I'm a biotechnologist turned software developer.
-            I've been at many facets of research, working at a drug discovery
-            startup, a EU's Horizon 2020 bioinformatics research project, or
-            collaborated with a Scottish contract research organization. I've
-            been at DTU Biosustain (that's Danish Tech Uni) and studied at the
-            Uni of Edinburgh (UK). And for some time I was working on a
-            software-for-life-science startup.
+            Som Juro Oravec. Biotechnológ, ktorého zlákal softvér. Ako
+            programátor som pracoval na produktoch v malých aj veľkých tímoch, v
+            startupoch aj v akadémii, v oblastiach výskumu liečiv,
+            bioinformatiky, alebo marketingovej automatizácie.
           </p>
           <p>
-            I'm fascinated by the role that innovation and tech plays for
-            humanity. We often pose academia and industry as the polar
-            opposites, but I think they're closer than it seems.
+            Vždy budujem, skúšam, alebo sa učím niečo bokom, a milujem, keď
+            vidím podobné nadšenie aj u iných. Keď som bol v Londýne, nikde inde
+            som sa necítil tak živo, ako na pive s Indie Hackers komunitou, teda
+            ľuďmi, ktorí bokom budujú malé a stredné podniky zo softvérových
+            produktov. Mám to šťastie, že aj na Slovensku už zopár zaujímavých
+            projektov poznám, a tak som si hovorím, "Prečo nezviditeľniť tieto
+            super projekty a indie hackers na Slovensku?"
           </p>
           <p>
-            Hi, I'm James I'm a fellow indie hacker and side-project-starter and
-            I love hearing the stories of other makers who have started their
-            businesses while working a full-time job. Whether that's a small
-            little earner on the side, or something that has grown into tens of
-            thousands of ££ income that means you could quit your job. Having
-            started many of my own side-projects I know how hard it is to get it
-            off the ground and generate revenue. I wouldn't have been able to
-            make progress on any of my projects if it wasn't for the kindness
-            and support I've received from everyone in the Indie Hackers
-            community. Everyone has a story to tell, advice they can give and
-            lessons to teach - I want to share them with as many people as I
-            can. I hope you can join me for this podcast talking to our favorite
-            indie hackers.
-          </p>
-          <p>
-            <a href="https://jurora.vc/about">Find more about me here</a>
+            <a href="https://jurora.vc/about"
+              >Viac o mne nájdeš na mojom webe</a
+            >
           </p>
         </div>
       </div>
@@ -166,13 +157,9 @@ import { refToRefs } from '../utils/vueReactivity';
 import { isNotNil } from '../utils/isNotNull';
 
 const taglines = shuffle([
-  // TODO
-  'Podcast about the processes that make science happen',
-  'Podcast about the science of doing science',
-  'Podcast about the art of doing science',
-  'Podcast about the behind-the-scenes of science',
-  'Podcast about the boring side of science',
-  'Podcast about the process mining in science',
+  'Podcast o slovenských indie hackers',
+  'Podcast o slovenských techpreneurs',
+  'Podcast o digitálnych produktoch a ich tvorcoch',
 ]);
 
 const Home = defineComponent({

@@ -71,8 +71,8 @@ const email = 'juraj.oravec.josefson@gmail.com';
 export const metadata: GridsomeConfigMetadata = {
   siteName: 'Cestou Tech',
   siteUrl,
-  siteDescription: 'Explore the process behind science',
-  siteTags: ['science', 'research', 'rnd', 'tech', 'software'],
+  siteDescription: 'Cestou Tech je podcast, kde stretneš Slovákov, ktorí budujú úspešné alebo nadchádzajúce softvérové (a iné) produkty',
+  siteTags: ['startup', 'business', 'indie hacker', 'software'],
   siteAuthor: {
     firstName: 'Juro',
     lastName: 'Oravec',
